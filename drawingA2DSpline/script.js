@@ -1,8 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-
-
 console.log(ctx);
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -11,11 +9,6 @@ window.addEventListener('resize', function(){
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 })
-
-const mouse = {
-    x: undefined,
-    y: undefined
-}
 
 let ctrl = 0;
 let j = 0;
@@ -48,13 +41,9 @@ function catmullRom(p0, p1, p2, p3, t) {
 canvas.addEventListener('click', function (event) {
     if( ctrl < 10 ){
         ctrl++;
-
-        mouse.x = event.x;
-        mouse.y = event.y;
     
         pontos.push( { x : event.x, y : event.y } );
     
-        console.log(event.x);
     } else if(ctrl == 10){
         ctrl++;
         let p0 = { x : 2 * pontos[0].x - pontos[1].x, y : 2 * pontos[0].y - pontos[1].y };
@@ -68,7 +57,6 @@ canvas.addEventListener('click', function (event) {
 })
 
 function draw() {
-
 
     if( ctrl > 10 ){
 
@@ -121,8 +109,6 @@ function draw() {
         }
     }
     
-
-
 }
 
 function animate(){
@@ -135,7 +121,7 @@ function animate(){
     draw();
 
     requestAnimationFrame(animate);
+    
 }
-
 
 animate();
