@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+
+      <style>
+        #controls-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: sans-serif;
+        }
+        #date-display {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="date-display" style="position: absolute; top: 10px; left: 10px; color: white; font-family: monospace; font-size: 16px;"></div>
+    <canvas id="canvas"></canvas>
+    <script src="https://webgl2fundamentals.org/webgl/resources/twgl-full.min.js"></script>
+    <script src="https://webgl2fundamentals.org/webgl/resources/m4.js"></script>
+    <script src="https://webgl2fundamentals.org/webgl/resources/flattened-primitives.js"></script>
+    <script src="https://webgl2fundamentals.org/webgl/resources/chroma.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

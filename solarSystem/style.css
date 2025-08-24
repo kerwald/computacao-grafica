@@ -1,0 +1,32 @@
+/* Remove margens e define um fundo preto para a página */
+body { 
+    margin: 0; 
+    background-color: #000;
+    overflow: hidden; /* Esconde as barras de rolagem */
+}
+
+/* Faz o canvas ocupar a tela inteira */
+canvas { 
+    display: block; 
+    width: 100vw; 
+    height: 100vh; 
+}
+
+/* Estiliza a caixa de informações no canto superior esquerdo */
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 8px 12px;
+    border-radius: 5px;
+    pointer-events: none; /* Garante que o mouse não interaja com a caixa de info */
+}
+
+/* Remove a margem padrão dos parágrafos dentro da caixa de info */
+#info p {
+    margin: 4px 0;
+}
