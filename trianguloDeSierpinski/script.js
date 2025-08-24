@@ -18,12 +18,12 @@ let indiceA = 0;
 let indiceB = 0;
 
 canvas.addEventListener( 'click', function (event) {
-    if ( ctrl < 3 ) {
-        ctrl++;
-    
-        pontos.push( { x : event.x, y : event.y } );
+    if ( ctrl < 4 ) {
+        if( ctrl < 3 ){
+            pontos.push( { x : event.x, y : event.y } );
+        }
         pontosIntermediarios.push( { x : event.x, y : event.y } );
-    
+        ctrl++;
     } else {
         ctrl++;
     }
@@ -40,7 +40,7 @@ Responsável por desenha os pontos, as curvas e o movimento da bola branca na te
 */
 function Draw() {
 
-    if( ctrl > 2  ){
+    if( ctrl > 3  ){
 
         ctx.fillStyle = "red";
         for( let i = 0; i < pontosIntermediarios.length; i++ ) {
@@ -51,14 +51,11 @@ function Draw() {
 
         indiceA = Math.floor(Math.random() * pontos.length);
 
-        if( pontos.length == pontosIntermediarios.length ){
-            indiceB = Math.floor(Math.random() * pontos.length);
-        }
-
+        
+        indiceB = pontosIntermediarios.length - 1;
         pontoIntermediarioX = ( pontosIntermediarios[indiceA].x + pontosIntermediarios[indiceB].x ) / 2;
         pontoIntermediarioY = ( pontosIntermediarios[indiceA].y + pontosIntermediarios[indiceB].y ) / 2;
         pontosIntermediarios.push( { x : pontoIntermediarioX, y : pontoIntermediarioY } );
-        indiceB = pontosIntermediarios.length - 1;
 
 
     } else{
