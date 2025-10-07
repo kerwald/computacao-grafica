@@ -77,30 +77,29 @@ A simulação começará a carregar os dados e iniciará a renderização.
 
 ## 📂 Estrutura do Projeto
 
-/
-|-- index.html              # Arquivo principal da página
-|-- main.js                 # Código principal da simulação em JavaScript
-|
-|-- /sun/
-|   |-- sunR.obj            # Modelo 3D
-|   |-- ...                 # Texturas e materiais
-|
-|-- /earth/
-|   |-- earth.obj           # Modelo 3D
-|   |-- earth.mtl           # Materiais
-|   |-- earth_texture.jpg   # Textura
-|   |-- earth.txt           # Dados de efemérides da NASA
-|
-|-- /moon/
-|   |-- ... (e assim por diante para cada corpo celeste)
-|
-|-- ...
-
----
+/  
+|-- index.html              # Arquivo principal da página  
+|-- main.js                 # Código principal da simulação em JavaScript  
+|  
+|-- /sun/  
+|   |-- sunR.obj            # Modelo 3D  
+|   |-- ...                 # Texturas e materiais  
+|  
+|-- /earth/  
+|   |-- earth.obj           # Modelo 3D  
+|   |-- earth.mtl           # Materiais  
+|   |-- earth_texture.jpg   # Textura  
+|   |-- earth.txt           # Dados de efemérides da NASA  
+|  
+|-- /moon/  
+|   |-- ... (e assim por diante para cada corpo celeste)  
+|  
+|-- ...  
+  
+---   
 
 ## ✒️ Autor
 
 Projeto desenvolvido por **Felipe Leonardo Kerwald Santana**.
 
-* LinkedIn: [Felipe Kerwald](https://www.linkedin.com/in/felipekerwald/)
-* GitHub: [Felipe Kerwald](https://github.com/kerwald)
+* [LinkedIn](https://www.linkedin.com/in/felipekerwald/)
