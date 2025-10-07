@@ -55,23 +55,23 @@ A simulação começará a carregar os dados e iniciará a renderização.
 
 ## 🎮 Controles
 
-| Ação                      | Controle                   |
-| :------------------------ | :------------------------- |
-| **Rotacionar Câmera** | Clicar e arrastar com o mouse |
-| **Aumentar/Diminuir Zoom**| Roda do mouse (scroll)     |
-| **Focar no Sol** | Tecla `1`                  |
-| **Focar em Mercúrio** | Tecla `2`                  |
-| **Focar em Vênus** | Tecla `3`                  |
-| **Focar na Terra** | Tecla `4`                  |
-| **Focar em Marte** | Tecla `5`                  |
-| **Focar em Júpiter** | Tecla `6`                  |
-| **Focar em Saturno** | Tecla `7`                  |
-| **Focar em Urano** | Tecla `8`                  |
-| **Focar em Netuno** | Tecla `9`                  |
-| **Focar na Lua** | Tecla `M`                  |
-| **Visão Geral** | Tecla `0`                  |
-| **Aumentar Velocidade** | Tecla `+`                  |
-| **Diminuir Velocidade** | Tecla `-`                  |
+| Ação                      | Controle                   |  
+| :------------------------ | :------------------------- |  
+| **Rotacionar Câmera** | Clicar e arrastar com o mouse |  
+| **Aumentar/Diminuir Zoom**| Roda do mouse (scroll)     |  
+| **Focar no Sol** | Tecla `1`                  |  
+| **Focar em Mercúrio** | Tecla `2`                  |  
+| **Focar em Vênus** | Tecla `3`                  |  
+| **Focar na Terra** | Tecla `4`                  |  
+| **Focar em Marte** | Tecla `5`                  |  
+| **Focar em Júpiter** | Tecla `6`                  |  
+| **Focar em Saturno** | Tecla `7`                  |  
+| **Focar em Urano** | Tecla `8`                  |  
+| **Focar em Netuno** | Tecla `9`                  |  
+| **Focar na Lua** | Tecla `M`                  |  
+| **Visão Geral** | Tecla `0`                  |  
+| **Aumentar Velocidade** | Tecla `+`                  |  
+| **Diminuir Velocidade** | Tecla `-`                  |  
 
 ---
 
